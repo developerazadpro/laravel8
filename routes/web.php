@@ -22,3 +22,7 @@ Route::get('/branch-one', function () {
     return view('branchOne.branch_one');
 
 });
+
+Route::get('/branch-two', function () {
+    return view('branchTwo.branch_two');
+});
