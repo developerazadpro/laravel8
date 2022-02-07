@@ -26,3 +26,7 @@ Route::get('/branch-one', function () {
 Route::get('/branch-two', function () {
     return view('branchTwo.branch_two');
 });
+
+Route::get('/branch-three', function () {
+    return view('branchThree.branch_three');
+});
