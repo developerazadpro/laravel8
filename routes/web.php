@@ -30,3 +30,7 @@ Route::get('/branch-two', function () {
 Route::get('/branch-three', function () {
     return view('branchThree.branch_three');
 });
+
+Route::get('/branch-dhaka', function () {
+    return view('branchOne.branch_dhaka');
+});
