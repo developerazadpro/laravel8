@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/branch-one', function () {
     return view('branchOne.branch_one');
 });
+
+Route::get('/branch-dhaka', function () {
+    return view('branchOne.branch_dhaka');
+});
