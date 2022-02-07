@@ -13,6 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::get('/', function () {
     return view('main.main');
+});
+
+Route::get('/branch-one', function () {
+    return view('branchOne.branch_one');
+
 });
